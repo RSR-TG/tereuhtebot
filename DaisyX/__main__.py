@@ -63,7 +63,7 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Chibai, [Zo Robot] ka nia(https://telegra.ph/file/47caadaea13d54e062d1b.jpg)
+Chibai, [Zo Robot] ka ni e.
 
 Group i enkawl na ah i zangkhai zawk theih nan a pui thei tu tur che ka ni e
 
@@ -79,14 +79,14 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Group a add na ➕", url="t.me/mizoro_bot?startgroup=true"
+            text="➕ Add Me to Your Group ➕", url="t.me/mizoro_bot?startgroup=true"
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [🤖](https://telegra.ph/file/47caadaea13d54e062d1b.jpg)
+*Main Commands :* [🤖]
 ✪ /start: Min tihnun na.
 ✪ /help: Ka hnathawh theih i hriat theihna!
 ✪ /donate: Min siamtu hnen a lawmman i pek ve na tur.
