@@ -97,7 +97,7 @@ HELP_STRINGS = f"""
 ★A hnuai a button ho hi click la,ka hnathawh theih hrang hrang ani e,mahse English vek a a hrilhfiahna ziah ania,harsatna i neih theih avang in click la👉 @rsrtginfo join rawh
 """.format(
     dispatcher.bot.first_name,
-    "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
+    "" if not ALLOW_EXCL else "\nCommand zawng zawng hi / emaw ! a tan vek tur.\n",
 )
 
 
@@ -222,7 +222,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "Hnathawk tur in ka inring e😊\n<b>Chawlh hun chhung:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -689,7 +689,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
         update.effective_message.reply_text(
-            "You can also donate to the person currently running me "
+            "Itan ka tangkai anih chuan lo Donate ve rawh le😊"
             "[here]({})".format(DONATION_LINK),
             parse_mode=ParseMode.MARKDOWN,
         )
@@ -702,7 +702,7 @@ def main():
 
     if SUPPORT_CHAT is not None and isinstance(SUPPORT_CHAT, str):
         try:
-            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "I am now online!")
+            dispatcher.bot.sendMessage(f"@{SUPPORT_CHAT}", "Ka inring e😊")
         except Unauthorized:
             LOGGER.warning(
                 "Bot isnt able to send message to support_chat, go and check!"
