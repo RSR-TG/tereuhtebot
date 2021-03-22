@@ -63,11 +63,11 @@ from DaisyX.modules.helper_funcs.misc import paginate_modules
 from DaisyX.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """
-Chibai, [Zo Robot] ka ni e.
+Chibai le
 
 Group i enkawl na ah i zangkhai zawk theih nan a pui thei tu tur che ka ni e
 
-✪ Ka hnathawh theih i hriat duh chuan /help tih hi click rawh ✪ 
+✪ Ka hnathawh theih i hriat duh chuan /help tih hi click rawh,chuan update ka nih hun ah te i hriat duh chuan a hnuai a support group tih leh support channel hi lo join rawh aw,harsatna i neih pawn tah hian i zawt thei ang ✪ 
 """
 
 buttons = [
@@ -79,7 +79,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Me to Your Group ➕", url="t.me/zamzo_bot?startgroup=true"
+            text="➕ Add Me to Your Group ➕", url="t.me/tereuhte_bot?startgroup=true"
         ),
     ],
 ]
