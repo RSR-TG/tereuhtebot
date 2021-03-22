@@ -27,5 +27,5 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 :: your commands begin from this point.
 :: stops the service and then starts it 
-net stop Zo Robot
-net start Zo Robot
+net stop Tereuhte💋
+net start Tereuhte💋
