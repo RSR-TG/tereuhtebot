@@ -1,5 +1,5 @@
 {
-      "name": "Daisy X",
+      "name": "Tereuhte",
       "description": "An Anime themed Telegram group management bot.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "DaisyX"
       ],   
-   "repository": "https://github.com/Inukaasith/daisy-x",
+   "repository": "https://github.com/RSR-TG/tereuhtebot",
    "addons": [
       {
          "options": {
@@ -179,6 +179,6 @@
       "manager",
       "daisy"
    ],
-   "name": "Daisy X",
-   "repository": "https://github.com/Inukaasith/daisy-x"
+   "name": "Tereuhte",
+   "repository": "https://github.com/RSR-TG/tereuhtebot"
 }
